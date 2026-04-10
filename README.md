@@ -6,9 +6,7 @@ This folder now contains a complete IA2 website starter that already matches the
 - `index.html`: One-page website with all 6 required IA2 sections.
 - `styles.css`: Responsive, mobile-friendly styling.
 - `content-template.md`: Fill-in template for replacing placeholders.
-- `GU_Jialin_Resume_AI_DataScience_ATS.txt`: ATS-focused resume source text.
-- `GU_Jialin_Resume_AI_DataScience_ATS.docx`: ATS-focused resume document for download/upload.
-- `GU_Jialin_Resume_onepage_pretty.pdf`: one-page PDF resume used by website Resume section.
+- `GU_Jialin_Resume_AI_CV.pdf`: final one-page resume used by website Resume section.
 - `submission_word_template.txt`: Source text for Word submission file.
 - `IA2_Submission.docx`: Word submission document (generated from template).
 
@@ -26,7 +24,7 @@ This folder now contains a complete IA2 website starter that already matches the
 ## What You Should Verify Before Final Submission
 - Confirm project repository/report links if you want direct per-project links instead of profile-level links.
 - After deployment, update `Website URL` in `submission_word_template.txt` and regenerate `IA2_Submission.docx` if needed.
-- Review wording in `GU_Jialin_Resume_AI_DataScience_ATS.docx` and adjust for each target job application.
+- Confirm the final resume file is `GU_Jialin_Resume_AI_CV.pdf`.
 
 ## Deploy to GitHub Pages
 
