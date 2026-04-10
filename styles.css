@@ -232,6 +232,28 @@ h2 {
   font-size: 0.95rem;
 }
 
+.project-figure {
+  margin: 0.95rem 0 1rem;
+  border: 1px solid #1b1f2b1a;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  background: #ffffffd9;
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-figure figcaption {
+  font-size: 0.88rem;
+  color: #4c576f;
+  padding: 0.62rem 0.74rem 0.68rem;
+  border-top: 1px solid #1b1f2b14;
+  line-height: 1.5;
+}
+
 a {
   color: #0f5cb0;
 }
