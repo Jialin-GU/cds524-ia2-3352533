@@ -2,7 +2,7 @@ IA2 Final Individual Project Submission
 
 Name: GU Jialin
 Student ID: 3352533
-Website URL: https://<your-username>.github.io/ia2-job-website/ (update after deployment)
+Website URL: https://jialin-gu.github.io/cds524-ia2-3352533/
 
 (Optional) Notes:
 - Website built on GitHub Pages.
