@@ -1,0 +1,35 @@
+GU Jialin
+Email: jialingu@ln.hk | GitHub: https://github.com/Jialin-GU | Phone: +852 69421761
+Target Roles: Data Analyst Intern / Research Assistant (AI, Computer Vision, Generative AI)
+
+PROFESSIONAL SUMMARY
+Data Science postgraduate focused on computer vision and generative AI for 3D reconstruction and sustainability applications. Built end-to-end pipelines for generation, depth estimation, and semantic understanding, with strong strengths in quantitative evaluation, experimental design, and research communication.
+
+EDUCATION
+Lingnan University
+Master of Advanced Data Science (Research), Expected Feb 2027
+
+TECHNICAL SKILLS
+Programming: Python
+AI/ML: Deep Learning, Computer Vision, Generative AI, LLM Evaluation
+Frameworks: PyTorch, NumPy, pandas, diffusers
+Tools: Blender, ComfyUI, Git/GitHub, HuggingFace, Jupyter Notebook
+Methods: Benchmark design, ablation studies, metric design, reproducible evaluation pipelines
+
+SELECTED PROJECTS
+IGF-Bench: Evaluating Geometric Fidelity of Conditional Image Generation | Nov 2025 - Apr 2026
+- Built a 148GB benchmark from 3D-FRONT with 3,600 annotated views and 21,600 generated images across 6 models.
+- Proposed 4 geometry-aware metrics (planar consistency, orthogonality, edge alignment, vanishing point consistency) to evaluate structural quality beyond FID/LPIPS.
+- Designed a relative degradation framework (delta L) to isolate generation artifacts from depth-estimation noise; validated with semantic masking and 7 ablation studies.
+- Demonstrated perceptual quality did not align with geometric fidelity, identified Flux.1 as most robust on orthogonality degradation, and submitted work to NeurIPS 2026 (Evaluations & Datasets Track).
+
+Diagnosing the Judge: Benchmarking LLMs' Personality Recognition Capabilities | Jan 2026 - Apr 2026
+- Reframed personality benchmarking from role-playing realism to evaluator reliability via a reverse-evaluation framework for LLM Judges.
+- Built a reproducible benchmark based on Personality Database with 50+ labeled characters, 5 scenarios, and 5 LLMs.
+- Implemented an end-to-end pipeline for dialogue generation, transcript slicing, and structured evaluation over 249 character-model pairs.
+- Produced ranking matrices and baseline diagnostics for evaluator bias analysis, supporting future RMSE/convergence/robustness metrics.
+
+TRANSFERABLE STRENGTHS
+- Translate open-ended research questions into measurable, reproducible AI evaluation workflows.
+- Combine data processing, modeling, and analysis to deliver decision-relevant insights.
+- Communicate technical findings clearly for both research and cross-functional audiences.

@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GU Jialin | AI, CV & Generative AI Portfolio</title>
+    <meta
+      name="description"
+      content="GU Jialin's job-seeking website for Data Analyst Intern / Research Assistant roles, with projects in computer vision, generative AI, 3D reconstruction, and sustainability."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">GU Jialin</a>
+        <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container">
+          <p class="eyebrow">IA2 Final Individual Project</p>
+          <h1>AI for 3D and Sustainability.</h1>
+          <p class="lead">
+            Data Science student seeking Data Analyst Intern / Research Assistant opportunities to build practical computer
+            vision and generative AI systems for structural understanding, geometric reasoning, and real-world decision support.
+          </p>
+          <ul class="tag-list" aria-label="Key tags">
+            <li>Computer Vision</li>
+            <li>Generative AI</li>
+            <li>3D Reconstruction</li>
+            <li>Embodied Carbon</li>
+            <li>Large Language Models</li>
+            <li>Deep Learning</li>
+            <li>Python</li>
+            <li>PyTorch</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="card">
+            <p>
+              I am a Data Science student with a strong interest in computer vision and generative AI. My work focuses on
+              applying structure-aware approaches to 3D reconstruction and embodied carbon analysis, aiming to bridge digital
+              modeling with sustainability applications.
+            </p>
+            <p>
+              I have experience working with deep learning frameworks such as PyTorch and building pipelines that integrate
+              image generation, depth estimation, and semantic understanding. In addition, I have explored large language
+              models for personality analysis and evaluation, combining quantitative methods with behavioral modeling.
+            </p>
+            <p>
+              I am particularly interested in developing AI systems that can understand structure, geometry, and real-world
+              constraints. I am currently seeking opportunities where I can apply my skills in computer vision and generative
+              AI to solve practical problems.
+            </p>
+            <p><strong>Education:</strong> Lingnan University, Master of Advanced Data Science (Research), Expected Graduation: Feb 2027</p>
+            <h3>Strengths / Focus Areas</h3>
+            <ul>
+              <li>Strong ability to build end-to-end computer vision pipelines integrating generation, depth estimation, and semantic understanding.</li>
+              <li>Experience in applying AI methods to real-world sustainability problems, particularly embodied carbon analysis.</li>
+              <li>Solid understanding of generative AI and large language models, including evaluation and behavioral analysis.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="grid-3">
+            <article class="card">
+              <h3>Technical Skills</h3>
+              <ul>
+                <li>Python, PyTorch, NumPy, pandas</li>
+                <li>Computer Vision, Deep Learning, Image Generation</li>
+                <li>3D Reconstruction, Geometry-Aware Evaluation</li>
+                <li>LLM evaluation, experiment design, reproducible pipelines</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Business Skills</h3>
+              <ul>
+                <li>Problem framing and hypothesis-driven analysis</li>
+                <li>Quantitative evaluation and ablation design</li>
+                <li>Research communication and technical writing</li>
+                <li>Cross-domain thinking (AI + sustainability applications)</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Tools</h3>
+              <ul>
+                <li>Blender, diffusers, ComfyUI</li>
+                <li>Git, GitHub, HuggingFace</li>
+                <li>Jupyter Notebook</li>
+                <li>LaTeX</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects (Core)</h2>
+          <p class="section-intro">Each project follows the required IA2 project-card structure.</p>
+
+          <article class="project-card card">
+            <h3>IGF-Bench: Evaluating Geometric Fidelity of Conditional Image Generation</h3>
+            <p class="meta"><strong>Time:</strong> Nov 2025 - Apr 2026</p>
+            <p>
+              <strong>Problem:</strong> Existing image generation metrics (e.g., FID, LPIPS) evaluate perceptual quality but
+              overlook geometric fidelity, such as planar consistency, orthogonality, and edge alignment, which are critical
+              for downstream 3D reconstruction and BIM applications.
+            </p>
+            <p>
+              <strong>Data:</strong> Built a benchmark on 3D-FRONT with 3,600 annotated views (RGB, depth, edges, segmentation,
+              camera parameters) and 21,600 generated images across 6 generative models (Stable Diffusion, Flux.1, SDXL, etc.),
+              totaling about 148 GB.
+            </p>
+            <p>
+              <strong>Approach:</strong> Proposed four geometry-aware metrics (planar consistency, orthogonality, edge alignment,
+              vanishing point consistency). Designed a relative degradation framework (delta L) to separate generation artifacts
+              from depth-estimation noise, and validated robustness with semantic masking plus 7 ablation studies.
+            </p>
+            <p>
+              <strong>Outcome / Impact:</strong> Showed perceptual quality is not equal to geometric fidelity (the best-FID model
+              had the worst geometric performance). Identified Flux.1 as most robust in structural consistency (lowest
+              orthogonality degradation), exposed edge alignment as a common bottleneck, released the open-source benchmark
+              (GitHub + HuggingFace, ~148 GB), and submitted the paper to NeurIPS 2026 (Evaluations & Datasets Track).
+            </p>
+            <p>
+              <strong>Your Contribution:</strong> Independently designed and implemented the full pipeline, including dataset
+              construction in Blender, multi-model generation (diffusers/ComfyUI), metric design, large-scale evaluation,
+              ablation studies, and manuscript writing.
+            </p>
+            <p><strong>Optional Link:</strong> Project repository and paper links will be released after manuscript submission.</p>
+          </article>
+
+          <article class="project-card card">
+            <h3>Diagnosing the Judge: Benchmarking LLMs' Personality Recognition Capabilities</h3>
+            <p class="meta"><strong>Time:</strong> Jan 2026 - Apr 2026</p>
+            <p>
+              <strong>Problem:</strong> Most personality studies examine whether role-playing models behave realistically while
+              assuming evaluators are reliable. This project tests whether LLM evaluators can actively and consistently infer
+              latent personality traits from multi-turn dialogue.
+            </p>
+            <p>
+              <strong>Data:</strong> Built a dialogue benchmark grounded in Personality Database (PDB), covering 50+ characters
+              with Big Five/MBTI annotations, multi-turn dialogues across 5 scenarios and 5 LLMs, and structured pair-level
+              transcripts for evaluation.
+            </p>
+            <p>
+              <strong>Approach:</strong> Proposed a reverse-evaluation framework in which standardized role-playing Actors with
+              controlled traits interact with LLM Judges that infer personality profiles. Implemented an end-to-end pipeline
+              for dialogue generation, transcript slicing, and cross-scenario evaluation.
+            </p>
+            <p>
+              <strong>Outcome / Impact:</strong> Delivered a reproducible evaluation pipeline and benchmark over 249
+              character-model pairs with ranking matrices. Established the foundation for advanced diagnostics (e.g., RMSE,
+              convergence, robustness) and systematic analysis of evaluator bias and reliability.
+            </p>
+            <p>
+              <strong>Your Contribution:</strong> Led problem formulation and methodology design, shifting focus from
+              role-playing realism to evaluator diagnosis. Independently built and executed the Phase 1-2 pipeline, including
+              data processing, dialogue generation, metric computation, and experimental analysis.
+            </p>
+            <p><strong>Optional Link:</strong> Project repository and paper links will be released after manuscript submission.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <div class="container">
+          <h2>Resume / CV</h2>
+          <div class="card">
+            <p>
+              <strong>Downloadable Resume Link:</strong>
+              <a href="GU_Jialin_Resume_onepage_pretty.pdf" target="_blank" rel="noreferrer noopener">GU_Jialin_Resume_onepage_pretty.pdf</a>
+            </p>
+            <h3>Short Resume Snapshot</h3>
+            <ul>
+              <li><strong>Education:</strong> Lingnan University, Master of Advanced Data Science (Research), Expected Feb 2027</li>
+              <li><strong>Target Roles:</strong> Data Analyst Intern / Research Assistant (AI, CV, Generative AI)</li>
+              <li><strong>Research Focus:</strong> Structure-aware vision systems, geometric fidelity, and sustainability-linked AI applications</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <div class="card">
+            <p><strong>Email (Required):</strong> <a href="mailto:jialingu@ln.hk">jialingu@ln.hk</a></p>
+            <p><strong>GitHub (Optional):</strong> <a href="https://github.com/Jialin-GU" target="_blank" rel="noreferrer noopener">github.com/Jialin-GU</a></p>
+            <p><strong>Phone (Optional):</strong> +852 69421761</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> GU Jialin | IA2 Personal Job-Seeking Website</p>
+      </div>
+    </footer>
+
+    <script>
+      const menuBtn = document.querySelector('.menu-btn');
+      const nav = document.querySelector('.site-nav');
+      menuBtn.addEventListener('click', () => {
+        const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+        menuBtn.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
